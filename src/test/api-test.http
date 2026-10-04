@@ -1,0 +1,18 @@
+### 测试注册接口
+POST http://localhost:8080/user/register
+Content-Type: application/json
+
+{
+  "username": "zhangsan",
+  "password": "123456",
+  "nickname": "张三"
+}
+
+### 测试登录接口
+POST http://localhost:8080/user/login
+Content-Type: application/json
+
+{
+  "username": "zhangsan",
+  "password": "123456"
+}
